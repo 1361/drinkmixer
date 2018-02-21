@@ -3,7 +3,7 @@ import time
 import sys
 import json
 GPIO.setmode(GPIO.BOARD)
-with open('/tmp/json-file') as data_file:
+with open('/tmp/whiskey') as data_file:
         data = json.load(data_file)
 
 x1 = int(data)
