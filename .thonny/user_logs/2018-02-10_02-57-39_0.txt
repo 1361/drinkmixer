@@ -1,0 +1,2501 @@
+[
+    {
+        "time": "2018-02-10T02:57:39.248142",
+        "text_widget_id": 1970565968,
+        "editor_class": "Editor",
+        "editor_id": 1970493328,
+        "text_widget_class": "CodeViewText",
+        "sequence": "EditorTextCreated"
+    },
+    {
+        "time": "2018-02-10T02:57:39.250191",
+        "text_widget_id": 1970565968,
+        "editor_class": "Editor",
+        "filename": "/home/pi/test.py",
+        "editor_id": 1970493328,
+        "text_widget_class": "CodeViewText",
+        "sequence": "Open"
+    },
+    {
+        "time": "2018-02-10T02:57:39.250719",
+        "text_widget_id": 1970565968,
+        "index1": "1.0",
+        "text_widget_class": "CodeViewText",
+        "index2": "2.0",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "1.0",
+        "tags": "()",
+        "text": "import RPi.GPIO as GPIO\nimport time\nimport sys\nGPIO.setmode(GPIO.BCM)\n\nGPIO.setup(26, GPIO.OUT)\nGPIO.setup(19, GPIO.OUT)\nGPIO.setup(13, GPIO.OUT)\n\nGPIO.output(26, GPIO.LOW)\nGPIO.output(19, GPIO.HIGH)\nGPIO.output(13, GPIO.HIGH)\ntime.sleep(5)\nGPIO.output(13, GPIO.LOW)\n\n\n\nGPIO.cleanup()\n",
+        "time": "2018-02-10T02:57:39.361951",
+        "text_widget_id": 1970565968,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T02:57:39.375753",
+        "view_id": 1970402928,
+        "view_class": "ShellView",
+        "sequence": "ShowView"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T02:57:39.862229",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "index": "1.0",
+        "tags": "('welcome',)",
+        "text": "Python 3.5.3 (/usr/bin/python3)",
+        "time": "2018-02-10T02:57:39.875979",
+        "text_widget_id": 1970442288,
+        "text_widget_context": "shell",
+        "text_widget_class": "ShellText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "1.31",
+        "tags": "('io',)",
+        "text": "\n",
+        "time": "2018-02-10T02:57:39.879816",
+        "text_widget_id": 1970442288,
+        "text_widget_context": "shell",
+        "text_widget_class": "ShellText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "2.0",
+        "tags": "('toplevel', 'prompt')",
+        "text": ">>> ",
+        "time": "2018-02-10T02:57:39.881578",
+        "text_widget_id": 1970442288,
+        "text_widget_context": "shell",
+        "text_widget_class": "ShellText",
+        "sequence": "TextInsert"
+    },
+    {
+        "widget": ".#1971661808",
+        "time": "2018-02-10T02:57:44.588432",
+        "sequence": "<Button-1>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T02:57:44.640605",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget": ".#1971661808.#1971661808#1970948272",
+        "time": "2018-02-10T02:57:46.186540",
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T02:57:46.257160",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "EditorTextCreated"
+    },
+    {
+        "time": "2018-02-10T02:57:46.258791",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "NewFile"
+    },
+    {
+        "denied": "False",
+        "time": "2018-02-10T02:57:46.263242",
+        "command_id": "new_file",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T02:57:46.263956",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "widget": ".#1971661808",
+        "time": "2018-02-10T02:57:47.906041",
+        "sequence": "<Button-1>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T02:57:47.931997",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget": ".#1971661808.#1971661808#1970948272",
+        "time": "2018-02-10T02:57:49.275298",
+        "sequence": "<Button-1>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T02:57:49.456241",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T02:57:49.466014",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "time": "2018-02-10T02:57:58.698423",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "filename": "/home/pi/relaytest.py",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "SaveAs"
+    },
+    {
+        "denied": "False",
+        "time": "2018-02-10T02:57:58.704270",
+        "command_id": "save_file_as",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T02:57:58.707296",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:01:05.544515",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:01:06.941291",
+        "text_widget_id": 1970565968,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970565968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "denied": "True",
+        "time": "2018-02-10T03:01:10.766661",
+        "command_id": "interrupt",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:01:12.756313",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:01:13.219645",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "1.0",
+        "tags": "None",
+        "text": "import RPi.GPIO as GPIO\nimport time\nimport sys\nGPIO.setmode(GPIO.BCM)\n",
+        "time": "2018-02-10T03:01:13.974686",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:01:13.979111",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<<Paste>>"
+    },
+    {
+        "time": "2018-02-10T03:01:47.821881",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:01:48.021918",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:01:50.270297",
+        "text_widget_id": 1970543280,
+        "index1": "4.18",
+        "text_widget_class": "CodeViewText",
+        "index2": "4.21",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "4.18",
+        "tags": "None",
+        "text": "b",
+        "time": "2018-02-10T03:01:50.278961",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "4.19",
+        "tags": "None",
+        "text": "o",
+        "time": "2018-02-10T03:01:50.416232",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "4.20",
+        "tags": "None",
+        "text": "a",
+        "time": "2018-02-10T03:01:50.576091",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "4.21",
+        "tags": "None",
+        "text": "r",
+        "time": "2018-02-10T03:01:50.704099",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:01:51.040003",
+        "text_widget_id": 1970543280,
+        "index1": "4.21",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:01:51.197206",
+        "text_widget_id": 1970543280,
+        "index1": "4.20",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:01:51.344002",
+        "text_widget_id": 1970543280,
+        "index1": "4.19",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:01:51.663890",
+        "text_widget_id": 1970543280,
+        "index1": "4.18",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "4.18",
+        "tags": "None",
+        "text": "B",
+        "time": "2018-02-10T03:01:52.157064",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "4.19",
+        "tags": "None",
+        "text": "O",
+        "time": "2018-02-10T03:01:52.447865",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "4.20",
+        "tags": "None",
+        "text": "A",
+        "time": "2018-02-10T03:01:52.903945",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "4.21",
+        "tags": "None",
+        "text": "R",
+        "time": "2018-02-10T03:01:53.100856",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "4.22",
+        "tags": "None",
+        "text": "D",
+        "time": "2018-02-10T03:01:53.423764",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:01:56.246563",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:01:58.670092",
+        "text_widget_id": 1970565968,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970565968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "denied": "True",
+        "time": "2018-02-10T03:02:01.092467",
+        "command_id": "interrupt",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:02:02.074806",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:02:02.688289",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "5.0",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:02:03.691855",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "6.0",
+        "tags": "None",
+        "text": "GPIO.setup(26, GPIO.OUT)\nGPIO.setup(19, GPIO.OUT)\nGPIO.setup(13, GPIO.OUT)",
+        "time": "2018-02-10T03:02:04.388120",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:02:04.389756",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<<Paste>>"
+    },
+    {
+        "time": "2018-02-10T03:02:13.180505",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:02:14.548287",
+        "text_widget_id": 1970543280,
+        "index1": "6.12",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:02:14.732777",
+        "text_widget_id": 1970543280,
+        "index1": "6.11",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "6.11",
+        "tags": "None",
+        "text": "3",
+        "time": "2018-02-10T03:02:14.879125",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "6.12",
+        "tags": "None",
+        "text": "7",
+        "time": "2018-02-10T03:02:15.383256",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:02:17.508137",
+        "text_widget_id": 1970543280,
+        "index1": "7.12",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:02:17.687323",
+        "text_widget_id": 1970543280,
+        "index1": "7.11",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "7.11",
+        "tags": "None",
+        "text": "3",
+        "time": "2018-02-10T03:02:18.756750",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "7.12",
+        "tags": "None",
+        "text": "5",
+        "time": "2018-02-10T03:02:18.980577",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:02:21.041846",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:02:23.285036",
+        "text_widget_id": 1970543280,
+        "index1": "8.0",
+        "text_widget_class": "CodeViewText",
+        "index2": "8.24",
+        "sequence": "TextDelete"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:02:24.699659",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:02:26.247098",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:02:27.264770",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "7.24",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:02:28.565766",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "8.0",
+        "tags": "None",
+        "text": "",
+        "time": "2018-02-10T03:02:28.575314",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "8.0",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:02:28.743969",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.0",
+        "tags": "None",
+        "text": "G",
+        "time": "2018-02-10T03:02:30.228967",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.1",
+        "tags": "None",
+        "text": "P",
+        "time": "2018-02-10T03:02:30.613029",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.2",
+        "tags": "None",
+        "text": "I",
+        "time": "2018-02-10T03:02:30.772794",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.3",
+        "tags": "None",
+        "text": "O",
+        "time": "2018-02-10T03:02:30.903873",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.4",
+        "tags": "None",
+        "text": ".",
+        "time": "2018-02-10T03:02:31.631079",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:02:33.908943",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:02:35.350742",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:02:37.519433",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "9.5",
+        "tags": "None",
+        "text": "o",
+        "time": "2018-02-10T03:02:38.613036",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.6",
+        "tags": "None",
+        "text": "u",
+        "time": "2018-02-10T03:02:38.724979",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.7",
+        "tags": "None",
+        "text": "t",
+        "time": "2018-02-10T03:02:38.812949",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.8",
+        "tags": "None",
+        "text": "p",
+        "time": "2018-02-10T03:02:38.959820",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.9",
+        "tags": "None",
+        "text": "u",
+        "time": "2018-02-10T03:02:39.103773",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.10",
+        "tags": "None",
+        "text": "t",
+        "time": "2018-02-10T03:02:39.327904",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.11",
+        "tags": "None",
+        "text": "(",
+        "time": "2018-02-10T03:02:41.629133",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:02:43.252998",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:02:44.775043",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:02:46.352085",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "9.12",
+        "tags": "None",
+        "text": "3",
+        "time": "2018-02-10T03:02:47.677281",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.13",
+        "tags": "None",
+        "text": "7",
+        "time": "2018-02-10T03:02:47.981062",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.14",
+        "tags": "None",
+        "text": ",",
+        "time": "2018-02-10T03:02:48.621083",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.15",
+        "tags": "None",
+        "text": " ",
+        "time": "2018-02-10T03:02:48.781204",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.16",
+        "tags": "None",
+        "text": "G",
+        "time": "2018-02-10T03:02:49.141226",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.17",
+        "tags": "None",
+        "text": "P",
+        "time": "2018-02-10T03:02:49.565308",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.18",
+        "tags": "None",
+        "text": "I",
+        "time": "2018-02-10T03:02:49.708878",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.19",
+        "tags": "None",
+        "text": "O",
+        "time": "2018-02-10T03:02:49.823813",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.20",
+        "tags": "None",
+        "text": ".",
+        "time": "2018-02-10T03:02:50.780975",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.21",
+        "tags": "None",
+        "text": "H",
+        "time": "2018-02-10T03:02:51.191830",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.22",
+        "tags": "None",
+        "text": "I",
+        "time": "2018-02-10T03:02:52.205239",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.23",
+        "tags": "None",
+        "text": "H",
+        "time": "2018-02-10T03:02:52.399836",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:02:52.839981",
+        "text_widget_id": 1970543280,
+        "index1": "9.23",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "9.23",
+        "tags": "None",
+        "text": "G",
+        "time": "2018-02-10T03:02:53.325163",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.24",
+        "tags": "None",
+        "text": "H",
+        "time": "2018-02-10T03:02:53.669218",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.25",
+        "tags": "None",
+        "text": ")",
+        "time": "2018-02-10T03:02:54.261074",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "9.26",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:02:54.800380",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.0",
+        "tags": "None",
+        "text": "",
+        "time": "2018-02-10T03:02:54.805394",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.0",
+        "tags": "None",
+        "text": "t",
+        "time": "2018-02-10T03:02:58.485045",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:02:59.039625",
+        "text_widget_id": 1970543280,
+        "index1": "10.0",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "10.0",
+        "tags": "None",
+        "text": "s",
+        "time": "2018-02-10T03:02:59.396940",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:02:59.911740",
+        "text_widget_id": 1970543280,
+        "index1": "10.0",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "10.0",
+        "tags": "None",
+        "text": "t",
+        "time": "2018-02-10T03:03:00.079740",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.1",
+        "tags": "None",
+        "text": "i",
+        "time": "2018-02-10T03:03:00.212559",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.2",
+        "tags": "None",
+        "text": "m",
+        "time": "2018-02-10T03:03:00.380857",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.3",
+        "tags": "None",
+        "text": "e",
+        "time": "2018-02-10T03:03:00.476823",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.4",
+        "tags": "None",
+        "text": "(",
+        "time": "2018-02-10T03:03:01.135618",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:03:02.620791",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:03:03.959068",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:03:06.737698",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:03:07.404770",
+        "text_widget_id": 1970543280,
+        "index1": "10.4",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "10.4",
+        "tags": "None",
+        "text": ".",
+        "time": "2018-02-10T03:03:08.132571",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.5",
+        "tags": "None",
+        "text": "s",
+        "time": "2018-02-10T03:03:08.500702",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.6",
+        "tags": "None",
+        "text": "l",
+        "time": "2018-02-10T03:03:08.581238",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.7",
+        "tags": "None",
+        "text": "e",
+        "time": "2018-02-10T03:03:08.759405",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.8",
+        "tags": "None",
+        "text": "e",
+        "time": "2018-02-10T03:03:08.919397",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.9",
+        "tags": "None",
+        "text": "p",
+        "time": "2018-02-10T03:03:09.087425",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.10",
+        "tags": "None",
+        "text": "(",
+        "time": "2018-02-10T03:03:09.700634",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.11",
+        "tags": "None",
+        "text": "3",
+        "time": "2018-02-10T03:03:10.788556",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.12",
+        "tags": "None",
+        "text": ")",
+        "time": "2018-02-10T03:03:11.269595",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "10.13",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:03:12.669303",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.0",
+        "tags": "None",
+        "text": "",
+        "time": "2018-02-10T03:03:12.678857",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.0",
+        "tags": "None",
+        "text": "G",
+        "time": "2018-02-10T03:03:13.143265",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.1",
+        "tags": "None",
+        "text": "P",
+        "time": "2018-02-10T03:03:13.540519",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.2",
+        "tags": "None",
+        "text": "I",
+        "time": "2018-02-10T03:03:13.693471",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.3",
+        "tags": "None",
+        "text": "O",
+        "time": "2018-02-10T03:03:13.825796",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.4",
+        "tags": "None",
+        "text": ".",
+        "time": "2018-02-10T03:03:14.391218",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.5",
+        "tags": "None",
+        "text": "o",
+        "time": "2018-02-10T03:03:14.684401",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.6",
+        "tags": "None",
+        "text": "u",
+        "time": "2018-02-10T03:03:14.820422",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.7",
+        "tags": "None",
+        "text": "t",
+        "time": "2018-02-10T03:03:15.404332",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.8",
+        "tags": "None",
+        "text": "p",
+        "time": "2018-02-10T03:03:15.660473",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.9",
+        "tags": "None",
+        "text": "u",
+        "time": "2018-02-10T03:03:15.768142",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.10",
+        "tags": "None",
+        "text": "t",
+        "time": "2018-02-10T03:03:15.935030",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.11",
+        "tags": "None",
+        "text": "(",
+        "time": "2018-02-10T03:03:16.485105",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.12",
+        "tags": "None",
+        "text": "3",
+        "time": "2018-02-10T03:03:17.620286",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.13",
+        "tags": "None",
+        "text": "7",
+        "time": "2018-02-10T03:03:17.863050",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.14",
+        "tags": "None",
+        "text": ",",
+        "time": "2018-02-10T03:03:18.484255",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.15",
+        "tags": "None",
+        "text": " ",
+        "time": "2018-02-10T03:03:18.615120",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.16",
+        "tags": "None",
+        "text": "G",
+        "time": "2018-02-10T03:03:19.007178",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.17",
+        "tags": "None",
+        "text": "P",
+        "time": "2018-02-10T03:03:19.357312",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.18",
+        "tags": "None",
+        "text": "I",
+        "time": "2018-02-10T03:03:19.479064",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.19",
+        "tags": "None",
+        "text": "O",
+        "time": "2018-02-10T03:03:19.622989",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.20",
+        "tags": "None",
+        "text": ".",
+        "time": "2018-02-10T03:03:20.252185",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.21",
+        "tags": "None",
+        "text": "L",
+        "time": "2018-02-10T03:03:20.836099",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.22",
+        "tags": "None",
+        "text": "o",
+        "time": "2018-02-10T03:03:21.047000",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:03:21.550714",
+        "text_widget_id": 1970543280,
+        "index1": "11.22",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "11.22",
+        "tags": "None",
+        "text": "O",
+        "time": "2018-02-10T03:03:21.803758",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.23",
+        "tags": "None",
+        "text": "W",
+        "time": "2018-02-10T03:03:22.374890",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "11.24",
+        "tags": "None",
+        "text": ")",
+        "time": "2018-02-10T03:03:23.115953",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:03:24.843150",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:03:27.741685",
+        "text_widget_id": 1970565968,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970565968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:03:28.952121",
+        "text_widget_id": 1970565968,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970565968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "denied": "True",
+        "time": "2018-02-10T03:03:30.757262",
+        "command_id": "interrupt",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "EditorNotebook",
+        "time": "2018-02-10T03:03:31.850501",
+        "widget_id": 1970949968,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:03:32.575685",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "12.0",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:03:33.579742",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.0",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:03:33.731569",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "14.0",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:03:33.899609",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "15.0",
+        "tags": "None",
+        "text": "GPIO.cleanup()",
+        "time": "2018-02-10T03:03:34.395376",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:03:34.396924",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<<Paste>>"
+    },
+    {
+        "time": "2018-02-10T03:03:35.972948",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "filename": "/home/pi/relaytest.py",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "Save"
+    },
+    {
+        "denied": "False",
+        "time": "2018-02-10T03:03:35.980164",
+        "command_id": "save_file",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:03:37.304745",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:08:02.074671",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "widget": ".#1971661808",
+        "time": "2018-02-10T03:08:02.092915",
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:08:04.895587",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "denied": "True",
+        "time": "2018-02-10T03:08:09.591019",
+        "command_id": "interrupt",
+        "sequence": "Command"
+    },
+    {
+        "time": "2018-02-10T03:08:10.223324",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "12.0",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:08:11.246661",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.0",
+        "tags": "None",
+        "text": "GPIO.output(37, GPIO.HIGH)\ntime.sleep(3)\nGPIO.output(37, GPIO.LOW)",
+        "time": "2018-02-10T03:08:11.849408",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:08:11.850244",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<<Paste>>"
+    },
+    {
+        "time": "2018-02-10T03:08:23.058411",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:08:23.828800",
+        "text_widget_id": 1970543280,
+        "index1": "13.13",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "13.13",
+        "tags": "None",
+        "text": "5",
+        "time": "2018-02-10T03:08:24.572692",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:08:26.061999",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:08:27.020696",
+        "text_widget_id": 1970543280,
+        "index1": "15.13",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "15.13",
+        "tags": "None",
+        "text": "5",
+        "time": "2018-02-10T03:08:30.840116",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:08:32.516043",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:08:33.732803",
+        "text_widget_id": 1970543280,
+        "index1": "10.11",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "10.11",
+        "tags": "None",
+        "text": "2",
+        "time": "2018-02-10T03:08:35.824716",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:08:38.564647",
+        "text_widget_id": 1970543280,
+        "index1": "10.11",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "10.11",
+        "tags": "None",
+        "text": "1",
+        "time": "2018-02-10T03:08:38.997422",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:08:40.528265",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:08:41.657161",
+        "text_widget_id": 1970543280,
+        "index1": "14.11",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "14.11",
+        "tags": "None",
+        "text": "1",
+        "time": "2018-02-10T03:08:41.953466",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:08:44.934824",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "filename": "/home/pi/relaytest.py",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "Save"
+    },
+    {
+        "denied": "False",
+        "time": "2018-02-10T03:08:44.940396",
+        "command_id": "save_file",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:08:45.764367",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:08:52.039120",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "time": "2018-02-10T03:08:52.057287",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:08:57.473498",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:09:03.744408",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "time": "2018-02-10T03:16:15.235591",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:16:17.211334",
+        "text_widget_id": 1970543280,
+        "index1": "13.0",
+        "text_widget_class": "CodeViewText",
+        "index2": "15.25",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:16:22.611815",
+        "text_widget_id": 1970543280,
+        "index1": "12.0",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:16:23.827974",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:16:24.947245",
+        "text_widget_id": 1970543280,
+        "index1": "10.11",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "10.11",
+        "tags": "None",
+        "text": "3",
+        "time": "2018-02-10T03:16:26.179636",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:16:27.604809",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "filename": "/home/pi/relaytest.py",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "Save"
+    },
+    {
+        "denied": "False",
+        "time": "2018-02-10T03:16:27.610031",
+        "command_id": "save_file",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:16:30.642402",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:17:20.337958",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "time": "2018-02-10T03:17:20.352342",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:17:21.059602",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:17:22.971758",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:17:23.404674",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "denied": "True",
+        "time": "2018-02-10T03:17:26.440026",
+        "command_id": "interrupt",
+        "sequence": "Command"
+    },
+    {
+        "time": "2018-02-10T03:17:27.576889",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "12.0",
+        "tags": "None",
+        "text": "GPIO.output(37, GPIO.HIGH)\ntime.sleep(3)\nGPIO.output(37, GPIO.LOW)",
+        "time": "2018-02-10T03:17:29.744558",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:17:29.746245",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<<Paste>>"
+    },
+    {
+        "time": "2018-02-10T03:17:31.064323",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:17:32.552843",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "denied": "True",
+        "time": "2018-02-10T03:17:34.848616",
+        "command_id": "interrupt",
+        "sequence": "Command"
+    },
+    {
+        "time": "2018-02-10T03:17:36.056707",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "11.25",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:17:36.776893",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.0",
+        "tags": "None",
+        "text": "",
+        "time": "2018-02-10T03:17:36.787460",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "denied": "True",
+        "time": "2018-02-10T03:17:37.809057",
+        "command_id": "interrupt",
+        "sequence": "Command"
+    },
+    {
+        "index": "12.0",
+        "tags": "None",
+        "text": "",
+        "time": "2018-02-10T03:17:39.264456",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:17:39.266144",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<<Paste>>"
+    },
+    {
+        "time": "2018-02-10T03:17:41.422545",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "denied": "True",
+        "time": "2018-02-10T03:17:43.073015",
+        "command_id": "interrupt",
+        "sequence": "Command"
+    },
+    {
+        "time": "2018-02-10T03:17:44.217381",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:17:44.761094",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:17:45.657676",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:17:46.238554",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "denied": "True",
+        "time": "2018-02-10T03:17:48.329353",
+        "command_id": "interrupt",
+        "sequence": "Command"
+    },
+    {
+        "time": "2018-02-10T03:17:49.497830",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:17:50.169316",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "12.0",
+        "tags": "None",
+        "text": "time.sleep(3)",
+        "time": "2018-02-10T03:17:51.224884",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:17:51.226463",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<<Paste>>"
+    },
+    {
+        "time": "2018-02-10T03:17:52.297791",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:17:54.234571",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "filename": "/home/pi/relaytest.py",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "Save"
+    },
+    {
+        "denied": "False",
+        "time": "2018-02-10T03:17:54.240331",
+        "command_id": "save_file",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:17:54.747892",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:18:17.286867",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "time": "2018-02-10T03:18:17.338783",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "11.14",
+        "tags": "None",
+        "text": ")",
+        "time": "2018-02-10T03:18:19.274722",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:18:23.419267",
+        "text_widget_id": 1970543280,
+        "index1": "11.14",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:18:46.458782",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:18:57.863731",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "time": "2018-02-10T03:18:57.879728",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:18:58.885348",
+        "text_widget_id": 1970543280,
+        "index1": "12.0",
+        "text_widget_class": "CodeViewText",
+        "index2": "12.13",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:19:01.783458",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "filename": "/home/pi/relaytest.py",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "Save"
+    },
+    {
+        "denied": "False",
+        "time": "2018-02-10T03:19:01.790373",
+        "command_id": "save_file",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:19:05.051742",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:19:21.562207",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "time": "2018-02-10T03:19:21.578208",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "index": "12.0",
+        "tags": "None",
+        "text": "G",
+        "time": "2018-02-10T03:19:25.871304",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.1",
+        "tags": "None",
+        "text": "P",
+        "time": "2018-02-10T03:19:27.503255",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.2",
+        "tags": "None",
+        "text": "I",
+        "time": "2018-02-10T03:19:27.826311",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.3",
+        "tags": "None",
+        "text": "O",
+        "time": "2018-02-10T03:19:28.018211",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.4",
+        "tags": "None",
+        "text": ".",
+        "time": "2018-02-10T03:19:28.503556",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.5",
+        "tags": "None",
+        "text": "C",
+        "time": "2018-02-10T03:19:28.839464",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.6",
+        "tags": "None",
+        "text": "L",
+        "time": "2018-02-10T03:19:28.959658",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.7",
+        "tags": "None",
+        "text": "E",
+        "time": "2018-02-10T03:19:29.067560",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.8",
+        "tags": "None",
+        "text": "A",
+        "time": "2018-02-10T03:19:29.242214",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:19:29.714402",
+        "text_widget_id": 1970543280,
+        "index1": "12.8",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:19:29.903548",
+        "text_widget_id": 1970543280,
+        "index1": "12.7",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:19:30.135690",
+        "text_widget_id": 1970543280,
+        "index1": "12.6",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:19:31.775830",
+        "text_widget_id": 1970543280,
+        "index1": "12.5",
+        "text_widget_class": "CodeViewText",
+        "index2": "None",
+        "sequence": "TextDelete"
+    },
+    {
+        "index": "12.5",
+        "tags": "None",
+        "text": "c",
+        "time": "2018-02-10T03:19:32.951867",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.6",
+        "tags": "None",
+        "text": "l",
+        "time": "2018-02-10T03:19:33.122340",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.7",
+        "tags": "None",
+        "text": "e",
+        "time": "2018-02-10T03:19:33.466651",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.8",
+        "tags": "None",
+        "text": "a",
+        "time": "2018-02-10T03:19:33.650355",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.9",
+        "tags": "None",
+        "text": "n",
+        "time": "2018-02-10T03:19:33.807348",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.10",
+        "tags": "None",
+        "text": "u",
+        "time": "2018-02-10T03:19:34.391688",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.11",
+        "tags": "None",
+        "text": "p",
+        "time": "2018-02-10T03:19:34.783742",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.12",
+        "tags": "None",
+        "text": "(",
+        "time": "2018-02-10T03:19:35.808179",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.13",
+        "tags": "None",
+        "text": ")",
+        "time": "2018-02-10T03:19:35.895832",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "12.14",
+        "tags": "None",
+        "text": "\n",
+        "time": "2018-02-10T03:19:38.745155",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.0",
+        "tags": "None",
+        "text": "",
+        "time": "2018-02-10T03:19:38.754869",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.0",
+        "tags": "None",
+        "text": "t",
+        "time": "2018-02-10T03:19:41.288392",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.1",
+        "tags": "None",
+        "text": "i",
+        "time": "2018-02-10T03:19:41.491163",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.2",
+        "tags": "None",
+        "text": "m",
+        "time": "2018-02-10T03:19:41.963206",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.3",
+        "tags": "None",
+        "text": "e",
+        "time": "2018-02-10T03:19:42.264542",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.4",
+        "tags": "None",
+        "text": ".",
+        "time": "2018-02-10T03:19:44.416742",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.5",
+        "tags": "None",
+        "text": "s",
+        "time": "2018-02-10T03:19:44.944755",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.6",
+        "tags": "None",
+        "text": "l",
+        "time": "2018-02-10T03:19:45.048714",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.7",
+        "tags": "None",
+        "text": "e",
+        "time": "2018-02-10T03:19:45.195372",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.8",
+        "tags": "None",
+        "text": "e",
+        "time": "2018-02-10T03:19:45.403405",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.9",
+        "tags": "None",
+        "text": "p",
+        "time": "2018-02-10T03:19:45.611436",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.10",
+        "tags": "None",
+        "text": "(",
+        "time": "2018-02-10T03:19:46.424744",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.11",
+        "tags": "None",
+        "text": "1",
+        "time": "2018-02-10T03:19:47.464951",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "index": "13.12",
+        "tags": "None",
+        "text": ")",
+        "time": "2018-02-10T03:19:48.440884",
+        "text_widget_id": 1970543280,
+        "text_widget_class": "CodeViewText",
+        "sequence": "TextInsert"
+    },
+    {
+        "time": "2018-02-10T03:19:50.466660",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "filename": "/home/pi/relaytest.py",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "Save"
+    },
+    {
+        "denied": "False",
+        "time": "2018-02-10T03:19:50.472212",
+        "command_id": "save_file",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:19:51.854652",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:20:02.397163",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "time": "2018-02-10T03:20:02.415766",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:20:04.049585",
+        "text_widget_id": 1970543280,
+        "index1": "12.0",
+        "text_widget_class": "CodeViewText",
+        "index2": "12.14",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:20:16.156116",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "filename": "/home/pi/relaytest.py",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "Save"
+    },
+    {
+        "denied": "False",
+        "time": "2018-02-10T03:20:16.161422",
+        "command_id": "save_file",
+        "sequence": "Command"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:20:17.408184",
+        "widget_id": 1983457712,
+        "sequence": "<FocusOut>"
+    },
+    {
+        "widget_class": "Workbench",
+        "time": "2018-02-10T03:20:32.030743",
+        "widget_id": 1983457712,
+        "sequence": "<FocusIn>"
+    },
+    {
+        "time": "2018-02-10T03:20:32.048894",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:20:33.716886",
+        "text_widget_id": 1970543280,
+        "index1": "13.0",
+        "text_widget_class": "CodeViewText",
+        "index2": "16.25",
+        "sequence": "TextDelete"
+    },
+    {
+        "time": "2018-02-10T03:20:37.092068",
+        "text_widget_id": 1970543280,
+        "widget_class": "CodeViewText",
+        "text_widget_class": "CodeViewText",
+        "widget_id": 1970543280,
+        "sequence": "<Button-1>"
+    },
+    {
+        "time": "2018-02-10T03:20:44.221904",
+        "text_widget_id": 1970543280,
+        "editor_class": "Editor",
+        "filename": "/home/pi/relaytest.py",
+        "editor_id": 1989498736,
+        "text_widget_class": "CodeViewText",
+        "sequence": "Save"
+    },
+    {
+        "denied": "False",
+        "time": "2018-02-10T03:20:44.227472",
+        "command_id": "save_file",
+        "sequence": "Command"
+    }
+]

@@ -1,0 +1,431 @@
+[
+    {
+        "text_widget_id": 1970799440,
+        "editor_class": "Editor",
+        "text_widget_class": "CodeViewText",
+        "editor_id": 1970727248,
+        "sequence": "EditorTextCreated",
+        "time": "2018-02-21T00:08:34.256461"
+    },
+    {
+        "text_widget_id": 1970799440,
+        "filename": "/home/pi/test.py",
+        "editor_class": "Editor",
+        "text_widget_class": "CodeViewText",
+        "editor_id": 1970727248,
+        "sequence": "Open",
+        "time": "2018-02-21T00:08:34.257480"
+    },
+    {
+        "index2": "2.0",
+        "text_widget_id": 1970799440,
+        "time": "2018-02-21T00:08:34.257947",
+        "index1": "1.0",
+        "sequence": "TextDelete",
+        "text_widget_class": "CodeViewText"
+    },
+    {
+        "text_widget_id": 1970799440,
+        "index": "1.0",
+        "text": "import RPi.GPIO as GPIO\nimport time\nimport sys\nGPIO.setmode(GPIO.BCM)\n\nGPIO.setup(26, GPIO.OUT)\nGPIO.setup(19, GPIO.OUT)\nGPIO.setup(13, GPIO.OUT)\n\nGPIO.output(26, GPIO.LOW)\nGPIO.output(19, GPIO.HIGH)\nGPIO.output(13, GPIO.HIGH)\ntime.sleep(5)\nGPIO.output(13, GPIO.LOW)\nGPIO.output(19, GPIO.LOW)\n\n\nGPIO.cleanup()\n",
+        "time": "2018-02-21T00:08:34.354211",
+        "text_widget_class": "CodeViewText",
+        "tags": "()",
+        "sequence": "TextInsert"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2018-02-21T00:08:34.368650"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:34.872361",
+        "widget_class": "Workbench"
+    },
+    {
+        "text_widget_id": 1970675760,
+        "index": "1.0",
+        "text": "Python 3.5.3 (/usr/bin/python3)",
+        "time": "2018-02-21T00:08:34.886246",
+        "text_widget_class": "ShellText",
+        "tags": "('welcome',)",
+        "sequence": "TextInsert",
+        "text_widget_context": "shell"
+    },
+    {
+        "text_widget_id": 1970675760,
+        "index": "1.31",
+        "text": "\n",
+        "time": "2018-02-21T00:08:34.889355",
+        "text_widget_class": "ShellText",
+        "tags": "('io',)",
+        "sequence": "TextInsert",
+        "text_widget_context": "shell"
+    },
+    {
+        "text_widget_id": 1970675760,
+        "index": "2.0",
+        "text": ">>> ",
+        "time": "2018-02-21T00:08:34.890625",
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'prompt')",
+        "sequence": "TextInsert",
+        "text_widget_context": "shell"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:35.850886",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:36.117232",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:38.254832",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:38.517134",
+        "widget_class": "Workbench"
+    },
+    {
+        "text_widget_id": 1970799440,
+        "time": "2018-02-21T00:08:39.118539",
+        "text_widget_class": "CodeViewText",
+        "sequence": "<Button-1>",
+        "widget_id": 1970799440,
+        "widget_class": "CodeViewText"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget": ".#1971895280",
+        "time": "2018-02-21T00:08:41.318576"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:41.386784",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget": ".#1971895280.#1971895280#1971181936",
+        "time": "2018-02-21T00:08:43.781769"
+    },
+    {
+        "text_widget_id": 1970799440,
+        "time": "2018-02-21T00:08:43.918004",
+        "text_widget_class": "CodeViewText",
+        "sequence": "<<Copy>>",
+        "widget_id": 1970799440,
+        "widget_class": "CodeViewText"
+    },
+    {
+        "denied": "False",
+        "sequence": "Command",
+        "time": "2018-02-21T00:08:43.918475",
+        "command_id": "Copy"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:43.919734",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:45.596533",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:46.054569",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:48.386968",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:58.114654",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget": ".#1971895280",
+        "time": "2018-02-21T00:08:58.165654"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:59.402088",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:08:59.908600",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:00.678380",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:03.992289",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget_id": 1970635472,
+        "time": "2018-02-21T00:09:05.826061",
+        "widget_class": "Button"
+    },
+    {
+        "text_widget_id": 1970727184,
+        "editor_class": "Editor",
+        "text_widget_class": "CodeViewText",
+        "editor_id": 1970777424,
+        "sequence": "EditorTextCreated",
+        "time": "2018-02-21T00:09:05.895561"
+    },
+    {
+        "text_widget_id": 1970727184,
+        "editor_class": "Editor",
+        "text_widget_class": "CodeViewText",
+        "editor_id": 1970777424,
+        "sequence": "NewFile",
+        "time": "2018-02-21T00:09:05.897190"
+    },
+    {
+        "text_widget_id": 1970727184,
+        "time": "2018-02-21T00:09:07.436109",
+        "text_widget_class": "CodeViewText",
+        "sequence": "<Button-3>",
+        "widget_id": 1970727184,
+        "widget_class": "CodeViewText"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:07.440228",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget_id": 1971181936,
+        "time": "2018-02-21T00:09:08.549143",
+        "widget_class": "Menu"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:08.619257",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:08.625876",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:08.627084",
+        "widget_class": "Workbench"
+    },
+    {
+        "text_widget_id": 1970727184,
+        "index": "1.0",
+        "text": "import RPi.GPIO as GPIO\nimport time\nimport sys\nGPIO.setmode(GPIO.BCM)\n\nGPIO.setup(26, GPIO.OUT)\nGPIO.setup(19, GPIO.OUT)\nGPIO.setup(13, GPIO.OUT)\n\nGPIO.output(26, GPIO.LOW)\nGPIO.output(19, GPIO.HIGH)\nGPIO.output(13, GPIO.HIGH)\ntime.sleep(5)\nGPIO.output(13, GPIO.LOW)\nGPIO.output(19, GPIO.LOW)\n\n\nGPIO.cleanup()\n\n",
+        "time": "2018-02-21T00:09:08.645641",
+        "text_widget_class": "CodeViewText",
+        "tags": "None",
+        "sequence": "TextInsert"
+    },
+    {
+        "text_widget_id": 1970727184,
+        "time": "2018-02-21T00:09:08.650153",
+        "text_widget_class": "CodeViewText",
+        "sequence": "<<Paste>>",
+        "widget_id": 1970727184,
+        "widget_class": "CodeViewText"
+    },
+    {
+        "denied": "False",
+        "sequence": "Command",
+        "time": "2018-02-21T00:09:08.650554",
+        "command_id": "Paste"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget_id": 1971183440,
+        "time": "2018-02-21T00:09:09.635462",
+        "widget_class": "EditorNotebook"
+    },
+    {
+        "sequence": "<Button-3>",
+        "widget_id": 1971183440,
+        "time": "2018-02-21T00:09:10.605577",
+        "widget_class": "EditorNotebook"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:10.610563",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget_id": 1971183600,
+        "time": "2018-02-21T00:09:11.477262",
+        "widget_class": "Menu"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:11.544575",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:11.553822",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:11.555178",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget_id": 1971183440,
+        "time": "2018-02-21T00:09:12.320077",
+        "widget_class": "EditorNotebook"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget": ".#1971895280",
+        "time": "2018-02-21T00:09:14.627782"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:14.696680",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget": ".#1971895280.#1971895280#1971181744",
+        "time": "2018-02-21T00:09:16.292991"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:16.477122",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:16.511925",
+        "widget_class": "Workbench"
+    },
+    {
+        "text_widget_id": 1970727184,
+        "filename": "/usr/lib/cgi-bin/drink1.py",
+        "editor_class": "Editor",
+        "text_widget_class": "CodeViewText",
+        "editor_id": 1970777424,
+        "sequence": "SaveAs",
+        "time": "2018-02-21T00:09:23.952627"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:24.044099",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:24.062154",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget": ".__tk__messagebox.no",
+        "time": "2018-02-21T00:09:27.031717"
+    },
+    {
+        "denied": "False",
+        "sequence": "Command",
+        "time": "2018-02-21T00:09:27.095303",
+        "command_id": "save_file_as"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:27.096882",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget_id": 1971183440,
+        "time": "2018-02-21T00:09:28.470713",
+        "widget_class": "EditorNotebook"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:28.587990",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<Button-1>",
+        "widget": ".__tk__messagebox.no",
+        "time": "2018-02-21T00:09:30.104541"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:30.212893",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusOut>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:31.830521",
+        "widget_class": "Workbench"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "widget_id": 1983490896,
+        "time": "2018-02-21T00:09:32.083890",
+        "widget_class": "Workbench"
+    }
+]

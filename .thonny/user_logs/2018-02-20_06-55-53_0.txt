@@ -1,0 +1,185 @@
+[
+    {
+        "text_widget_id": 1970484496,
+        "editor_class": "Editor",
+        "sequence": "EditorTextCreated",
+        "editor_id": 1970412560,
+        "time": "2018-02-20T06:55:53.613436",
+        "text_widget_class": "CodeViewText"
+    },
+    {
+        "text_widget_id": 1970484496,
+        "sequence": "Open",
+        "editor_class": "Editor",
+        "editor_id": 1970412560,
+        "filename": "/usr/lib/cgi-bin/relaytest.py",
+        "time": "2018-02-20T06:55:53.614472",
+        "text_widget_class": "CodeViewText"
+    },
+    {
+        "text_widget_id": 1970484496,
+        "index2": "2.0",
+        "sequence": "TextDelete",
+        "index1": "1.0",
+        "text_widget_class": "CodeViewText",
+        "time": "2018-02-20T06:55:53.615119"
+    },
+    {
+        "text_widget_id": 1970484496,
+        "index": "1.0",
+        "text": "#!/usr/bin/python\nimport RPi.GPIO as GPIO\nimport time\nimport sys\nGPIO.setmode(GPIO.BOARD)\n\nGPIO.setup(37, GPIO.OUT)\nGPIO.setup(35, GPIO.OUT)\n\nGPIO.output(37, GPIO.LOW)\ntime.sleep(3)\nGPIO.output(37, GPIO.HIGH)\n\n\n\n\nGPIO.cleanup()\n",
+        "tags": "()",
+        "sequence": "TextInsert",
+        "time": "2018-02-20T06:55:53.716435",
+        "text_widget_class": "CodeViewText"
+    },
+    {
+        "sequence": "ShowView",
+        "view_class": "ShellView",
+        "view_id": "ShellView",
+        "time": "2018-02-20T06:55:53.733355"
+    },
+    {
+        "time": "2018-02-20T06:55:54.222387",
+        "sequence": "<FocusIn>",
+        "widget_id": 1983052048,
+        "widget_class": "Workbench"
+    },
+    {
+        "text_widget_id": 1970323408,
+        "index": "1.0",
+        "text_widget_context": "shell",
+        "text": "Python 3.5.3 (/usr/bin/python3)",
+        "tags": "('welcome',)",
+        "sequence": "TextInsert",
+        "time": "2018-02-20T06:55:54.242733",
+        "text_widget_class": "ShellText"
+    },
+    {
+        "text_widget_id": 1970323408,
+        "index": "1.31",
+        "text_widget_context": "shell",
+        "text": "\n",
+        "tags": "('io',)",
+        "sequence": "TextInsert",
+        "time": "2018-02-20T06:55:54.246022",
+        "text_widget_class": "ShellText"
+    },
+    {
+        "text_widget_id": 1970323408,
+        "index": "2.0",
+        "text_widget_context": "shell",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "sequence": "TextInsert",
+        "time": "2018-02-20T06:55:54.247276",
+        "text_widget_class": "ShellText"
+    },
+    {
+        "time": "2018-02-20T06:55:55.189727",
+        "sequence": "<FocusOut>",
+        "widget_id": 1983052048,
+        "widget_class": "Workbench"
+    },
+    {
+        "time": "2018-02-20T06:55:55.696057",
+        "sequence": "<FocusIn>",
+        "widget_id": 1983052048,
+        "widget_class": "Workbench"
+    },
+    {
+        "time": "2018-02-20T06:55:56.308924",
+        "sequence": "<Button-1>",
+        "widget_id": 1970362544,
+        "widget_class": "Button"
+    },
+    {
+        "text_widget_id": 1970323408,
+        "text_widget_context": "shell",
+        "index2": "3.0",
+        "sequence": "TextDelete",
+        "index1": "2.4",
+        "text_widget_class": "ShellText",
+        "time": "2018-02-20T06:55:56.401232"
+    },
+    {
+        "text_widget_id": 1970323408,
+        "index": "2.4",
+        "text_widget_context": "shell",
+        "text": "%cd /usr/lib/cgi-bin\n%Run relaytest.py\n",
+        "tags": "('automagic', 'toplevel', 'command')",
+        "sequence": "TextInsert",
+        "time": "2018-02-20T06:55:56.402612",
+        "text_widget_class": "ShellText"
+    },
+    {
+        "text_widget_id": 1970323408,
+        "text_widget_context": "shell",
+        "index2": "4.0",
+        "sequence": "TextDelete",
+        "index1": "4.0",
+        "text_widget_class": "ShellText",
+        "time": "2018-02-20T06:55:56.404991"
+    },
+    {
+        "cmd_line": "%cd /usr/lib/cgi-bin\n",
+        "sequence": "MagicCommand",
+        "time": "2018-02-20T06:55:56.406403"
+    },
+    {
+        "sequence": "ShellCommand",
+        "time": "2018-02-20T06:55:56.407565",
+        "command_text": "%cd /usr/lib/cgi-bin\n"
+    },
+    {
+        "text_widget_id": 1970323408,
+        "index": "3.0",
+        "text_widget_context": "shell",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "sequence": "TextInsert",
+        "time": "2018-02-20T06:55:56.441031",
+        "text_widget_class": "ShellText"
+    },
+    {
+        "text_widget_id": 1970323408,
+        "text_widget_context": "shell",
+        "index2": "4.0",
+        "sequence": "TextDelete",
+        "index1": "4.0",
+        "text_widget_class": "ShellText",
+        "time": "2018-02-20T06:55:56.442464"
+    },
+    {
+        "cmd_line": "%Run relaytest.py\n",
+        "sequence": "MagicCommand",
+        "time": "2018-02-20T06:55:56.443723"
+    },
+    {
+        "sequence": "ShellCommand",
+        "time": "2018-02-20T06:55:56.831263",
+        "command_text": "%Run relaytest.py\n"
+    },
+    {
+        "text_widget_id": 1970323408,
+        "index": "4.0",
+        "text_widget_context": "shell",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "sequence": "TextInsert",
+        "time": "2018-02-20T06:55:59.885043",
+        "text_widget_class": "ShellText"
+    },
+    {
+        "time": "2018-02-20T06:56:00.902049",
+        "sequence": "<FocusOut>",
+        "widget_id": 1983052048,
+        "widget_class": "Workbench"
+    },
+    {
+        "time": "2018-02-20T06:56:01.264330",
+        "sequence": "<FocusIn>",
+        "widget_id": 1983052048,
+        "widget_class": "Workbench"
+    }
+]

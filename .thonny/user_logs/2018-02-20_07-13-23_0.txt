@@ -1,0 +1,312 @@
+[
+    {
+        "text_widget_id": 1970303952,
+        "time": "2018-02-20T07:13:23.263179",
+        "text_widget_class": "CodeViewText",
+        "sequence": "EditorTextCreated",
+        "editor_id": 1970231376,
+        "editor_class": "Editor"
+    },
+    {
+        "text_widget_id": 1970303952,
+        "time": "2018-02-20T07:13:23.264242",
+        "text_widget_class": "CodeViewText",
+        "filename": "/usr/lib/cgi-bin/pytest.py",
+        "sequence": "Open",
+        "editor_class": "Editor",
+        "editor_id": 1970231376
+    },
+    {
+        "text_widget_id": 1970303952,
+        "index1": "1.0",
+        "text_widget_class": "CodeViewText",
+        "index2": "2.0",
+        "sequence": "TextDelete",
+        "time": "2018-02-20T07:13:23.265191"
+    },
+    {
+        "text_widget_id": 1970303952,
+        "text_widget_class": "CodeViewText",
+        "tags": "()",
+        "sequence": "TextInsert",
+        "index": "1.0",
+        "time": "2018-02-20T07:13:23.359892",
+        "text": "#!/usr/bin/python\nimport os\nimport cgi\nimport cgitb\ncgitb.enable()\nimport pigpio\nprint 'Content-type: text/html\\n\\n'\nprint '<html><h1> Python Script Test </h1>' \n\n<html>\n<body> This is a test </body>\n</html>\n\npi=pigpio.pi()\npi.write(37,1)\npi.stop()\nprint '</html>'\n"
+    },
+    {
+        "sequence": "ShowView",
+        "time": "2018-02-20T07:13:23.373114",
+        "view_class": "ShellView",
+        "view_id": "ShellView"
+    },
+    {
+        "sequence": "<FocusIn>",
+        "time": "2018-02-20T07:13:23.796553",
+        "widget_class": "Workbench",
+        "widget_id": 1982992592
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('welcome',)",
+        "sequence": "TextInsert",
+        "index": "1.0",
+        "time": "2018-02-20T07:13:23.811033",
+        "text": "Python 3.5.3 (/usr/bin/python3)"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('io',)",
+        "sequence": "TextInsert",
+        "index": "1.31",
+        "time": "2018-02-20T07:13:23.814510",
+        "text": "\n"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'prompt')",
+        "sequence": "TextInsert",
+        "index": "2.0",
+        "time": "2018-02-20T07:13:23.815928",
+        "text": ">>> "
+    },
+    {
+        "sequence": "<FocusOut>",
+        "time": "2018-02-20T07:13:24.708841",
+        "widget_class": "Workbench",
+        "widget_id": 1982992592
+    },
+    {
+        "sequence": "<FocusIn>",
+        "time": "2018-02-20T07:13:26.208399",
+        "widget_class": "Workbench",
+        "widget_id": 1982992592
+    },
+    {
+        "sequence": "<Button-1>",
+        "time": "2018-02-20T07:13:28.648518",
+        "widget_class": "Button",
+        "widget_id": 1970182416
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "index1": "2.4",
+        "text_widget_class": "ShellText",
+        "index2": "3.0",
+        "sequence": "TextDelete",
+        "time": "2018-02-20T07:13:28.754755"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('automagic', 'toplevel', 'command')",
+        "sequence": "TextInsert",
+        "index": "2.4",
+        "time": "2018-02-20T07:13:28.757300",
+        "text": "%Run pytest.py\n"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "index1": "3.0",
+        "text_widget_class": "ShellText",
+        "index2": "3.0",
+        "sequence": "TextDelete",
+        "time": "2018-02-20T07:13:28.761512"
+    },
+    {
+        "cmd_line": "%Run pytest.py\n",
+        "time": "2018-02-20T07:13:28.764025",
+        "sequence": "MagicCommand"
+    },
+    {
+        "command_text": "%Run pytest.py\n",
+        "time": "2018-02-20T07:13:29.146402",
+        "sequence": "ShellCommand"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'error')",
+        "sequence": "TextInsert",
+        "index": "3.0",
+        "time": "2018-02-20T07:13:29.151001",
+        "text": "  "
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'error', 'hyperlink')",
+        "sequence": "TextInsert",
+        "index": "3.2",
+        "time": "2018-02-20T07:13:29.152031",
+        "text": "File \"/usr/lib/cgi-bin/pytest.py\", line 7"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'error')",
+        "sequence": "TextInsert",
+        "index": "3.43",
+        "time": "2018-02-20T07:13:29.152998",
+        "text": "\n"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'error')",
+        "sequence": "TextInsert",
+        "index": "4.0",
+        "time": "2018-02-20T07:13:29.153941",
+        "text": "    print 'Content-type: text/html\\n\\n'\n"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'error')",
+        "sequence": "TextInsert",
+        "index": "5.0",
+        "time": "2018-02-20T07:13:29.154945",
+        "text": "                                      ^\n"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'error')",
+        "sequence": "TextInsert",
+        "index": "6.0",
+        "time": "2018-02-20T07:13:29.155913",
+        "text": "SyntaxError: Missing parentheses in call to 'print'\n"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'error')",
+        "sequence": "TextInsert",
+        "index": "7.0",
+        "time": "2018-02-20T07:13:29.156979",
+        "text": "\n"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'prompt')",
+        "sequence": "TextInsert",
+        "index": "8.0",
+        "time": "2018-02-20T07:13:29.158462",
+        "text": ">>> "
+    },
+    {
+        "sequence": "<FocusOut>",
+        "time": "2018-02-20T07:13:33.573157",
+        "widget_class": "Workbench",
+        "widget_id": 1982992592
+    },
+    {
+        "sequence": "<FocusIn>",
+        "time": "2018-02-20T07:13:34.000240",
+        "widget_class": "Workbench",
+        "widget_id": 1982992592
+    },
+    {
+        "sequence": "<FocusOut>",
+        "time": "2018-02-20T07:13:34.698550",
+        "widget_class": "Workbench",
+        "widget_id": 1982992592
+    },
+    {
+        "sequence": "<FocusIn>",
+        "time": "2018-02-20T07:13:35.024178",
+        "widget_class": "Workbench",
+        "widget_id": 1982992592
+    },
+    {
+        "sequence": "<Button-1>",
+        "time": "2018-02-20T07:13:35.610353",
+        "widget_class": "Button",
+        "widget_id": 1970183280
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "index1": "8.4",
+        "text_widget_class": "ShellText",
+        "index2": "9.0",
+        "sequence": "TextDelete",
+        "time": "2018-02-20T07:13:35.681026"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('automagic', 'toplevel', 'command')",
+        "sequence": "TextInsert",
+        "index": "8.4",
+        "time": "2018-02-20T07:13:35.683674",
+        "text": "%Reset\n"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "index1": "9.0",
+        "text_widget_class": "ShellText",
+        "index2": "9.0",
+        "sequence": "TextDelete",
+        "time": "2018-02-20T07:13:35.688178"
+    },
+    {
+        "cmd_line": "%Reset\n",
+        "time": "2018-02-20T07:13:35.690431",
+        "sequence": "MagicCommand"
+    },
+    {
+        "command_text": "%Reset\n",
+        "time": "2018-02-20T07:13:36.043737",
+        "sequence": "ShellCommand"
+    },
+    {
+        "text_widget_context": "shell",
+        "text_widget_id": 1970180144,
+        "text_widget_class": "ShellText",
+        "tags": "('toplevel', 'prompt')",
+        "sequence": "TextInsert",
+        "index": "9.0",
+        "time": "2018-02-20T07:13:36.048205",
+        "text": ">>> "
+    },
+    {
+        "text_widget_id": 1970303952,
+        "text_widget_class": "CodeViewText",
+        "sequence": "<Button-1>",
+        "widget_class": "CodeViewText",
+        "time": "2018-02-20T07:13:38.952928",
+        "widget_id": 1970303952
+    },
+    {
+        "sequence": "<FocusOut>",
+        "time": "2018-02-20T07:16:04.691525",
+        "widget_class": "Workbench",
+        "widget_id": 1982992592
+    },
+    {
+        "sequence": "<FocusIn>",
+        "time": "2018-02-20T07:16:05.036926",
+        "widget_class": "Workbench",
+        "widget_id": 1982992592
+    }
+]

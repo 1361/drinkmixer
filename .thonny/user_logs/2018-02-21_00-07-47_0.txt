@@ -1,0 +1,182 @@
+[
+    {
+        "text_widget_class": "CodeViewText",
+        "text_widget_id": 1970492912,
+        "time": "2018-02-21T00:07:47.395989",
+        "sequence": "EditorTextCreated",
+        "editor_id": 1970420752,
+        "editor_class": "Editor"
+    },
+    {
+        "filename": "/home/pi/test.py",
+        "editor_class": "Editor",
+        "text_widget_id": 1970492912,
+        "sequence": "Open",
+        "text_widget_class": "CodeViewText",
+        "editor_id": 1970420752,
+        "time": "2018-02-21T00:07:47.397115"
+    },
+    {
+        "text_widget_class": "CodeViewText",
+        "text_widget_id": 1970492912,
+        "index2": "2.0",
+        "sequence": "TextDelete",
+        "index1": "1.0",
+        "time": "2018-02-21T00:07:47.397629"
+    },
+    {
+        "text_widget_class": "CodeViewText",
+        "text_widget_id": 1970492912,
+        "text": "import RPi.GPIO as GPIO\nimport time\nimport sys\nGPIO.setmode(GPIO.BCM)\n\nGPIO.setup(26, GPIO.OUT)\nGPIO.setup(19, GPIO.OUT)\nGPIO.setup(13, GPIO.OUT)\n\nGPIO.output(26, GPIO.LOW)\nGPIO.output(19, GPIO.HIGH)\nGPIO.output(13, GPIO.HIGH)\ntime.sleep(5)\nGPIO.output(13, GPIO.LOW)\nGPIO.output(19, GPIO.LOW)\n\n\nGPIO.cleanup()\n",
+        "tags": "()",
+        "sequence": "TextInsert",
+        "index": "1.0",
+        "time": "2018-02-21T00:07:47.508967"
+    },
+    {
+        "time": "2018-02-21T00:07:47.522019",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "view_id": 1970331088
+    },
+    {
+        "time": "2018-02-21T00:07:48.032519",
+        "sequence": "<FocusIn>",
+        "widget_id": 1983060240,
+        "widget_class": "Workbench"
+    },
+    {
+        "text_widget_class": "ShellText",
+        "text_widget_id": 1970368560,
+        "text": "Python 3.5.3 (/usr/bin/python3)",
+        "tags": "('welcome',)",
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "index": "1.0",
+        "time": "2018-02-21T00:07:48.045378"
+    },
+    {
+        "text_widget_class": "ShellText",
+        "text_widget_id": 1970368560,
+        "text": "\n",
+        "tags": "('io',)",
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "index": "1.31",
+        "time": "2018-02-21T00:07:48.048895"
+    },
+    {
+        "text_widget_class": "ShellText",
+        "text_widget_id": 1970368560,
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "index": "2.0",
+        "time": "2018-02-21T00:07:48.050598"
+    },
+    {
+        "time": "2018-02-21T00:07:49.293824",
+        "sequence": "<FocusOut>",
+        "widget_id": 1983060240,
+        "widget_class": "Workbench"
+    },
+    {
+        "time": "2018-02-21T00:07:52.663182",
+        "sequence": "<FocusIn>",
+        "widget_id": 1983060240,
+        "widget_class": "Workbench"
+    },
+    {
+        "text_widget_class": "CodeViewText",
+        "text_widget_id": 1970492912,
+        "widget_id": 1970492912,
+        "sequence": "<Button-1>",
+        "widget_class": "CodeViewText",
+        "time": "2018-02-21T00:07:54.207873"
+    },
+    {
+        "time": "2018-02-21T00:08:00.744105",
+        "sequence": "<FocusOut>",
+        "widget_id": 1983060240,
+        "widget_class": "Workbench"
+    },
+    {
+        "time": "2018-02-21T00:08:01.078999",
+        "sequence": "<FocusIn>",
+        "widget_id": 1983060240,
+        "widget_class": "Workbench"
+    },
+    {
+        "text_widget_class": "CodeViewText",
+        "text_widget_id": 1970492912,
+        "widget_id": 1970492912,
+        "sequence": "<Button-1>",
+        "widget_class": "CodeViewText",
+        "time": "2018-02-21T00:08:01.726011"
+    },
+    {
+        "command_id": "interrupt",
+        "time": "2018-02-21T00:08:07.201478",
+        "sequence": "Command",
+        "denied": "True"
+    },
+    {
+        "time": "2018-02-21T00:08:08.136300",
+        "sequence": "<FocusOut>",
+        "widget_id": 1983060240,
+        "widget_class": "Workbench"
+    },
+    {
+        "time": "2018-02-21T00:08:08.390766",
+        "sequence": "<FocusIn>",
+        "widget_id": 1983060240,
+        "widget_class": "Workbench"
+    },
+    {
+        "time": "2018-02-21T00:08:09.458189",
+        "sequence": "<FocusOut>",
+        "widget_id": 1983060240,
+        "widget_class": "Workbench"
+    },
+    {
+        "editor_class": "Editor",
+        "text_widget_id": 1931267984,
+        "sequence": "EditorTextCreated",
+        "text_widget_class": "CodeViewText",
+        "editor_id": 1931266064,
+        "time": "2018-02-21T00:08:14.333755"
+    },
+    {
+        "filename": "/home/pi/relaytest.py",
+        "editor_class": "Editor",
+        "text_widget_id": 1931267984,
+        "sequence": "Open",
+        "text_widget_class": "CodeViewText",
+        "editor_id": 1931266064,
+        "time": "2018-02-21T00:08:14.335974"
+    },
+    {
+        "text_widget_class": "CodeViewText",
+        "text_widget_id": 1931267984,
+        "index2": "2.0",
+        "sequence": "TextDelete",
+        "index1": "1.0",
+        "time": "2018-02-21T00:08:14.336497"
+    },
+    {
+        "text_widget_class": "CodeViewText",
+        "text_widget_id": 1931267984,
+        "text": "import RPi.GPIO as GPIO\nimport time\nimport sys\nGPIO.setmode(GPIO.BOARD)\n\nGPIO.setup(37, GPIO.OUT)\nGPIO.setup(35, GPIO.OUT)\n\nGPIO.output(37, GPIO.LOW)\ntime.sleep(3)\nGPIO.output(37, GPIO.HIGH)\n\n\n\n\nGPIO.cleanup()",
+        "tags": "()",
+        "sequence": "TextInsert",
+        "index": "1.0",
+        "time": "2018-02-21T00:08:14.347658"
+    },
+    {
+        "time": "2018-02-21T00:08:14.387615",
+        "sequence": "<FocusIn>",
+        "widget_id": 1983060240,
+        "widget_class": "Workbench"
+    }
+]
